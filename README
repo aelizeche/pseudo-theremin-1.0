@@ -1,0 +1,19 @@
+# Theremin Digital con ESP32
+
+## Descripción del Proyecto
+
+Desarrollo de un theremin digital basado en un ESP32, utilizando dos sensores ultrasónicos HC-SR04 para controlar la frecuencia (tono) y el volumen del sonido. El sistema incorporará una pantalla OLED para mostrar en tiempo real la nota musical detectada, incluyendo semitonos y frecuencia correspondiente.
+
+## Objetivo General
+
+Diseñar, construir y probar un theremin digital funcional capaz de generar notas musicales mediante la detección de la posición de las manos sin contacto físico.
+
+## Cronograma de Actividades
+
+| Fecha | Actividades | Entregables |
+|---------|------------|------------|
+| 07/10 | Planificación del proyecto. Definición de requerimientos. Investigación de componentes. Diseño preliminar del circuito y elaboración del prototipo conceptual. | Documento de planificación y esquema inicial del sistema. |
+| 14/10 | Montaje físico inicial del ESP32, sensores ultrasónicos y pantalla OLED. Verificación individual de cada componente. | Prototipo básico capaz de medir y visualizar distancias. |
+| 21/10 | Desarrollo del software para convertir distancia en notas musicales. Implementación de la visualización de notas y semitonos en la pantalla OLED. | Sistema capaz de detectar la posición de la mano y mostrar la nota correspondiente. |
+| 28/10 | Integración del control de volumen mediante el segundo sensor. Calibración, pruebas finales y corrección de errores. | Theremin digital completamente funcional y documentado. |
+
